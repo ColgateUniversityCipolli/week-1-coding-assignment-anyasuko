@@ -31,10 +31,10 @@
 \textbf{Solution:}
 Note that I have added eval=FALSE so that it won't run
 % each time I compile
-```{r eval=FALSE, size="scriptsize", warning=FALSE, message=FALSE}
-%Code to install the aRtsy package
+<<eval=FALSE, size="scriptsize", warning=FALSE, message=FALSE>>=
+# Code to install the aRtsy package
 install.packages("aRtsy")
-
+@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % QUESTION 1b
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -42,8 +42,9 @@ install.packages("aRtsy")
   We need to load the library each time it is run.\\
 \textbf{Solution:}
 %%% Note here I have removed eval=FALSE so this code will run
-```{size="scriptsize", warning=FALSE, message=FALSE}
+<<size="scriptsize", warning=FALSE, message=FALSE>>=
 library(aRtsy)
+@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % QUESTION 1c
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
