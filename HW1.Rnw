@@ -1,3 +1,7 @@
+install.packages("tinytex")
+library(tinytex)
+install_tinytex()
+
 \documentclass{article}
 \usepackage[margin=1.0in]{geometry} % To set margins
 \usepackage{amsmath}  % This allows me to use the align functionality.
