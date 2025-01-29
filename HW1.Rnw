@@ -55,7 +55,12 @@ library(aRtsy)
 \textbf{Solution:}
 <<CollatzPlot1, eval=FALSE, size="scriptsize", warning=FALSE, message=FALSE>>=
 help("aRtsy")
-@
+#code from tutorial for making an image
+set.seed(1)
+canvas_collatz(colors = colorPalette("tuscany3"))
+#change to 1313
+set.seed(1313)
+canvas_collatz(colors = colorPalette("tuscany3"))
 %Code to insert a figure [H]ere
 \begin{figure}[H]
 \begin{center}
